@@ -1,0 +1,19 @@
+python --version
+pip install pipenv
+
+#install VSC
+
+mkdir storefront
+pipenv install django
+
+code . 
+
+pipenv shell
+django-admin startproject storefront .
+
+python manage.py runserver
+
+#add python interpreter ctrl+shift+p -> python interpreter
+
+#view -> terminal
+python manage.py runserver
